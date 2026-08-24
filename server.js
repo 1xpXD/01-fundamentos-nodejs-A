@@ -2,6 +2,7 @@ import { fastify } from "fastify";
 import { DatabaseMYSQL } from "./database-mysql.js";
 const server = fastify();
 const database = new DatabaseMYSQL();
+//sabor 67
 server.get('/', (req, res)=>{
     return 'Home';
 });
